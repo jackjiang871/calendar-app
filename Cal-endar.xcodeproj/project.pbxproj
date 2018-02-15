@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFE2663203522D400CED84F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE2662203522D400CED84F /* AppDelegate.swift */; };
+		EAFE2665203522D400CED84F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE2664203522D400CED84F /* ViewController.swift */; };
+		EAFE2668203522D400CED84F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFE2666203522D400CED84F /* Main.storyboard */; };
+		EAFE266B203522D400CED84F /* Cal_endar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAFE2669203522D400CED84F /* Cal_endar.xcdatamodeld */; };
+		EAFE266D203522D400CED84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFE266C203522D400CED84F /* Assets.xcassets */; };
+		EAFE2670203522D400CED84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFE266E203522D400CED84F /* LaunchScreen.storyboard */; };
+		EAFE267B203522D400CED84F /* Cal_endarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE267A203522D400CED84F /* Cal_endarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFE2677203522D400CED84F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFE2657203522D400CED84F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFE265E203522D400CED84F;
+			remoteInfo = "Cal-endar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAFE265F203522D400CED84F /* Cal-endar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cal-endar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFE2662203522D400CED84F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAFE2664203522D400CED84F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAFE2667203522D400CED84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAFE266A203522D400CED84F /* Cal_endar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cal_endar.xcdatamodel; sourceTree = "<group>"; };
+		EAFE266C203522D400CED84F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAFE266F203522D400CED84F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAFE2671203522D400CED84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFE2676203522D400CED84F /* Cal-endarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cal-endarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFE267A203522D400CED84F /* Cal_endarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cal_endarTests.swift; sourceTree = "<group>"; };
+		EAFE267C203522D400CED84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFE265C203522D400CED84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFE2673203522D400CED84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFE2656203522D400CED84F = {
+			isa = PBXGroup;
+			children = (
+				EAFE2661203522D400CED84F /* Cal-endar */,
+				EAFE2679203522D400CED84F /* Cal-endarTests */,
+				EAFE2660203522D400CED84F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFE2660203522D400CED84F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE265F203522D400CED84F /* Cal-endar.app */,
+				EAFE2676203522D400CED84F /* Cal-endarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFE2661203522D400CED84F /* Cal-endar */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE2662203522D400CED84F /* AppDelegate.swift */,
+				EAFE2664203522D400CED84F /* ViewController.swift */,
+				EAFE2666203522D400CED84F /* Main.storyboard */,
+				EAFE266C203522D400CED84F /* Assets.xcassets */,
+				EAFE266E203522D400CED84F /* LaunchScreen.storyboard */,
+				EAFE2671203522D400CED84F /* Info.plist */,
+				EAFE2669203522D400CED84F /* Cal_endar.xcdatamodeld */,
+			);
+			path = "Cal-endar";
+			sourceTree = "<group>";
+		};
+		EAFE2679203522D400CED84F /* Cal-endarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE267A203522D400CED84F /* Cal_endarTests.swift */,
+				EAFE267C203522D400CED84F /* Info.plist */,
+			);
+			path = "Cal-endarTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFE265E203522D400CED84F /* Cal-endar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFE267F203522D400CED84F /* Build configuration list for PBXNativeTarget "Cal-endar" */;
+			buildPhases = (
+				EAFE265B203522D400CED84F /* Sources */,
+				EAFE265C203522D400CED84F /* Frameworks */,
+				EAFE265D203522D400CED84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cal-endar";
+			productName = "Cal-endar";
+			productReference = EAFE265F203522D400CED84F /* Cal-endar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFE2675203522D400CED84F /* Cal-endarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFE2682203522D400CED84F /* Build configuration list for PBXNativeTarget "Cal-endarTests" */;
+			buildPhases = (
+				EAFE2672203522D400CED84F /* Sources */,
+				EAFE2673203522D400CED84F /* Frameworks */,
+				EAFE2674203522D400CED84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFE2678203522D400CED84F /* PBXTargetDependency */,
+			);
+			name = "Cal-endarTests";
+			productName = "Cal-endarTests";
+			productReference = EAFE2676203522D400CED84F /* Cal-endarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFE2657203522D400CED84F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jackjiang;
+				TargetAttributes = {
+					EAFE265E203522D400CED84F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EAFE2675203522D400CED84F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAFE265E203522D400CED84F;
+					};
+				};
+			};
+			buildConfigurationList = EAFE265A203522D400CED84F /* Build configuration list for PBXProject "Cal-endar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAFE2656203522D400CED84F;
+			productRefGroup = EAFE2660203522D400CED84F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFE265E203522D400CED84F /* Cal-endar */,
+				EAFE2675203522D400CED84F /* Cal-endarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFE265D203522D400CED84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE2670203522D400CED84F /* LaunchScreen.storyboard in Resources */,
+				EAFE266D203522D400CED84F /* Assets.xcassets in Resources */,
+				EAFE2668203522D400CED84F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFE2674203522D400CED84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFE265B203522D400CED84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE2665203522D400CED84F /* ViewController.swift in Sources */,
+				EAFE266B203522D400CED84F /* Cal_endar.xcdatamodeld in Sources */,
+				EAFE2663203522D400CED84F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFE2672203522D400CED84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFE267B203522D400CED84F /* Cal_endarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFE2678203522D400CED84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFE265E203522D400CED84F /* Cal-endar */;
+			targetProxy = EAFE2677203522D400CED84F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFE2666203522D400CED84F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFE2667203522D400CED84F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFE266E203522D400CED84F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFE266F203522D400CED84F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFE267D203522D400CED84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAFE267E203522D400CED84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFE2680203522D400CED84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78GQ3B89Q7;
+				INFOPLIST_FILE = "Cal-endar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cal-endar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFE2681203522D400CED84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78GQ3B89Q7;
+				INFOPLIST_FILE = "Cal-endar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cal-endar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAFE2683203522D400CED84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78GQ3B89Q7;
+				INFOPLIST_FILE = "Cal-endarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cal-endarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cal-endar.app/Cal-endar";
+			};
+			name = Debug;
+		};
+		EAFE2684203522D400CED84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78GQ3B89Q7;
+				INFOPLIST_FILE = "Cal-endarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Cal-endarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cal-endar.app/Cal-endar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFE265A203522D400CED84F /* Build configuration list for PBXProject "Cal-endar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFE267D203522D400CED84F /* Debug */,
+				EAFE267E203522D400CED84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFE267F203522D400CED84F /* Build configuration list for PBXNativeTarget "Cal-endar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFE2680203522D400CED84F /* Debug */,
+				EAFE2681203522D400CED84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFE2682203522D400CED84F /* Build configuration list for PBXNativeTarget "Cal-endarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFE2683203522D400CED84F /* Debug */,
+				EAFE2684203522D400CED84F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAFE2669203522D400CED84F /* Cal_endar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAFE266A203522D400CED84F /* Cal_endar.xcdatamodel */,
+			);
+			currentVersion = EAFE266A203522D400CED84F /* Cal_endar.xcdatamodel */;
+			path = Cal_endar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAFE2657203522D400CED84F /* Project object */;
+}
