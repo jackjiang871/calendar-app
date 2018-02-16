@@ -14,6 +14,8 @@
 		EAFE266D203522D400CED84F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFE266C203522D400CED84F /* Assets.xcassets */; };
 		EAFE2670203522D400CED84F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFE266E203522D400CED84F /* LaunchScreen.storyboard */; };
 		EAFE267B203522D400CED84F /* Cal_endarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE267A203522D400CED84F /* Cal_endarTests.swift */; };
+		EAFE26862035279600CED84F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE26852035279600CED84F /* Schedule.swift */; };
+		EAFE26882036764500CED84F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE26872036764500CED84F /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		EAFE2676203522D400CED84F /* Cal-endarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cal-endarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFE267A203522D400CED84F /* Cal_endarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cal_endarTests.swift; sourceTree = "<group>"; };
 		EAFE267C203522D400CED84F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFE26852035279600CED84F /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		EAFE26872036764500CED84F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				EAFE266E203522D400CED84F /* LaunchScreen.storyboard */,
 				EAFE2671203522D400CED84F /* Info.plist */,
 				EAFE2669203522D400CED84F /* Cal_endar.xcdatamodeld */,
+				EAFE26852035279600CED84F /* Schedule.swift */,
+				EAFE26872036764500CED84F /* Event.swift */,
 			);
 			path = "Cal-endar";
 			sourceTree = "<group>";
@@ -204,7 +210,9 @@
 			files = (
 				EAFE2665203522D400CED84F /* ViewController.swift in Sources */,
 				EAFE266B203522D400CED84F /* Cal_endar.xcdatamodeld in Sources */,
+				EAFE26862035279600CED84F /* Schedule.swift in Sources */,
 				EAFE2663203522D400CED84F /* AppDelegate.swift in Sources */,
+				EAFE26882036764500CED84F /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
